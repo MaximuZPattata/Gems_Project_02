@@ -1,0 +1,41 @@
+{
+	"SceneProperties": [
+		{
+			"SceneNumber": 0,
+			"bMadeIntoFBOTexture" : false,
+			"bMainScene" : true,
+			"CameraAngles": [
+				{
+					"SceneCameraPosition": [180.0, 220.0, 550.0],
+					"SceneCameraTarget":[-0.001, -0.24, -1.0]
+				}
+			],
+			"FBOWindowWidth" : 1200,
+			"FBOWindowHeight" : 800
+		}
+	],
+	"CubeMapProperties": {
+		"MapName": "NightSky",
+		"MapTexturePath": { 
+			"LeftTexture": "SpaceBox_left2_negX.bmp",
+			"RightTexture":"SpaceBox_right1_posX.bmp",
+			"TopTexture": "SpaceBox_top3_posY.bmp",
+			"DownTexture": "SpaceBox_bottom4_negY.bmp",
+			"FrontTexture": "SpaceBox_front5_posZ.bmp", 
+			"BackTexture": "SpaceBox_back6_negZ.bmp"
+		}
+	},
+	"LightProperties": [
+		{
+			"bLightOff": false, 
+			"LightType": 2.0,
+			"LinearAttenuation": 0.1,
+			"QuadraticAttenuation": 0.0,
+			"InnerAngle": 0.50,
+			"OuterAngle": 1.0,
+			"LightPosition": [0.0, 500.0, 0.0],
+			"LightDirection": [-1.0, -1.0, -1.0],
+			"LightColor": [1.0, 1.0, 1.0]
+		}
+	]
+}
